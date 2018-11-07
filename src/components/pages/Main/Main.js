@@ -25,9 +25,9 @@ class Portfolio extends Component {
                 <div className="section">
                     <div className="row container">
                         <h2 className="aboutHeader"> About Me! </h2>
-                         <p className="grey-text text-darken-3 lighten-3"> heres where all of the about field text will go. there are three paragraphs so ill need three p tags.</p>
-                         <p className="grey-text text-darken-3 lightne-3"> Here is the second paragraph of the about section.</p>
-                         <p className="grey-text text-darken-3 lightne-3"> Here is the third paragraph of the about section.</p>
+                         <p className="white-text text-darken-3 lighten-3"> heres where all of the about field text will go. there are three paragraphs so ill need three p tags.</p>
+                         <p className="white-text text-darken-3 lightne-3"> Here is the second paragraph of the about section.</p>
+                         <p className="white-text text-darken-3 lightne-3"> Here is the third paragraph of the about section.</p>
                     </div>
                 </div>
                 {/* extra room for readability */}
@@ -73,9 +73,9 @@ class Portfolio extends Component {
                 <div className="section">
                     <div className="row container">
                         <h2 className="aboutHeader"> Technologies </h2>
-                         <p className="grey-text text-darken-3 lighten-3"> heres where all of the about field text will go. there are three paragraphs so ill need three p tags.</p>
-                         <p className="grey-text text-darken-3 lightne-3"> Here is the second paragraph of the about section.</p>
-                         <p className="grey-text text-darken-3 lightne-3"> Here is the third paragraph of the about section.</p>
+                         <p className="white-text text-darken-3 lighten-3"> heres where all of the about field text will go. there are three paragraphs so ill need three p tags.</p>
+                         <p className="white-text text-darken-3 lightne-3"> Here is the second paragraph of the about section.</p>
+                         <p className="white-text text-darken-3 lightne-3"> Here is the third paragraph of the about section.</p>
                     </div>
                 </div>
                 {/* extra room for readability */}
