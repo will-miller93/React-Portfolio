@@ -22,7 +22,7 @@ class Portfolio extends Component {
                     </div>
                 </div>
                 {/* this is where the first whitespace will go */}
-                <div className="section white">
+                <div className="section">
                     <div className="row container">
                         <h2 className="aboutHeader"> About Me! </h2>
                          <p className="grey-text text-darken-3 lighten-3"> heres where all of the about field text will go. there are three paragraphs so ill need three p tags.</p>
@@ -37,7 +37,7 @@ class Portfolio extends Component {
                     </div>
                 </div>
                 {/* this is where the next whitespace will go */}
-                <div className="section white">
+                <div className="section">
                     <div className="row container">
                         <h2 className="aboutHeader"> Gallery </h2>
                         <Container>
@@ -70,7 +70,7 @@ class Portfolio extends Component {
                     </div>
                 </div>
                 {/* this is where the third and final whitespace will go */}
-                <div className="section white">
+                <div className="section">
                     <div className="row container">
                         <h2 className="aboutHeader"> Technologies </h2>
                          <p className="grey-text text-darken-3 lighten-3"> heres where all of the about field text will go. there are three paragraphs so ill need three p tags.</p>
