@@ -45,13 +45,13 @@ class Portfolio extends Component {
                                 <Col size='md-6'>
                                     {/* <Card src={require('../../../images/300x300PlaceHolder.png')} /> */}
                                     <img className='parallaxImages' src={require('../../../images/ZigRigResized.png')} alt='placeholder' />
-                                    <img className='parallaxImages' src={require('../../../images/300x300PlaceHolder.png')} alt='placeholder' />
+                                    <img className='parallaxImages' src={require('../../../images/CoffeeFinder.png')} alt='placeholder' />
                                 </Col>
                             </Row>
                             <Row>
                                 <Col size='md-6'>
-                                    <img className='parallaxImages' src={require('../../../images/300x300PlaceHolder.png')} alt='placeholder' />
-                                    <img className='parallaxImages' src={require('../../../images/300x300PlaceHolder.png')} alt='placeholder' />
+                                    <img className='parallaxImages' src={require('../../../images/googleMapsResized.png')} alt='placeholder' />
+                                    <img className='parallaxImages' src={require('../../../images/TreeViewResized.png')} alt='placeholder' />
                                 </Col>
                             </Row>
                             <Row>
