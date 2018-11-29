@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = () => (
 
-    <div class="card">
+    <div class="card small">
         <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="images/office.jpg" alt='card'/>
         </div>

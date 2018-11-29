@@ -42,22 +42,98 @@ class Portfolio extends Component {
                         <h2 className="aboutHeader"> Gallery </h2>
                         <Container>
                             <Row>
-                                <Col size='md-6'>
+                                <Col size='m6'>
                                     {/* <Card src={require('../../../images/300x300PlaceHolder.png')} /> */}
-                                    <img className='parallaxImages' src={require('../../../images/ZigRigResized.png')} alt='placeholder' />
-                                    <img className='parallaxImages' src={require('../../../images/CoffeeFinder.png')} alt='placeholder' />
+                                    {/* <img className='parallaxImages' src={require('../../../images/ZigRigResized.png')} alt='placeholder' />  */}
+                                    {/* <img className='parallaxImages' src={require('../../../images/CoffeeFinder.png')} alt='placeholder' /> */}
+                                    <div className="card medium">
+                                        <div className="card-image">
+                                            <img src={require('../../../images/ZigRigResized.png')} alt="CoffeeFinder" />
+                                            {/* <span className="card-title">Coffee Finder</span> */}
+                                        </div>
+                                        <div className="card-content">
+                                            <p>Zig Rig is a Full Stack React web application that makes the task of balancing generators in the field much simpler. The web app even allows for PDF downloads to be able to share with an entire team.</p>
+                                        </div>
+                                        <div className="card-action">
+                                            <a href="https://pure-taiga-14555.herokuapp.com/">Check It Out!</a>
+                                        </div>
+                                    </div>
+                                </Col>
+                                <Col size='m6'>
+                                    <div className="card medium">
+                                        <div className="card-image">
+                                            <img src={require('../../../images/CoffeeFinder.png')} alt="CoffeeFinder" />
+                                            {/* <span className="card-title">Coffee Finder</span> */}
+                                        </div>
+                                        <div className="card-content">
+                                            <p>Coffee Finder is a fullstack web application that utilizes the google maps and geocoding APIs to allow users to be able to find specialty coffee shops in their area.</p>
+                                        </div>
+                                        <div className="card-action">
+                                            <a href="https://pure-taiga-14555.herokuapp.com/">Check It Out!</a>
+                                        </div>
+                                    </div>
                                 </Col>
                             </Row>
                             <Row>
-                                <Col size='md-6'>
-                                    <img className='parallaxImages' src={require('../../../images/googleMapsResized.png')} alt='placeholder' />
-                                    <img className='parallaxImages' src={require('../../../images/TreeViewResized.png')} alt='placeholder' />
+                                <Col size='m6'>
+                                    {/* <img className='parallaxImages' src={require('../../../images/googleMapsResized.png')} alt='placeholder' /> */}
+                                    {/* <img className='parallaxImages' src={require('../../../images/TreeViewResized.png')} alt='placeholder' /> */}
+                                    <div className="card medium">
+                                        <div className="card-image">
+                                            <img src={require('../../../images/googleMapsResized.png')} alt="CoffeeFinder" />
+                                            {/* <span className="card-title">Coffee Finder</span> */}
+                                        </div>
+                                        <div className="card-content">
+                                            <p>Coffee Finder is a fullstack web application that utilizes the google maps and geocoding APIs to allow users to be able to find specialty coffee shops in their area.</p>
+                                        </div>
+                                        <div className="card-action">
+                                            <a href="https://pure-taiga-14555.herokuapp.com/">Check It Out!</a>
+                                        </div>
+                                    </div>
+                                </Col>
+                                <Col size='m6'>
+                                    <div className="card medium">
+                                        <div className="card-image">
+                                            <img src={require('../../../images/TreeViewResized.png')} alt="CoffeeFinder" />
+                                            {/* <span className="card-title">Coffee Finder</span> */}
+                                        </div>
+                                        <div className="card-content">
+                                            <p>Coffee Finder is a fullstack web application that utilizes the google maps and geocoding APIs to allow users to be able to find specialty coffee shops in their area.</p>
+                                        </div>
+                                        <div className="card-action">
+                                            <a href="https://pure-taiga-14555.herokuapp.com/">Check It Out!</a>
+                                        </div>
+                                    </div>
                                 </Col>
                             </Row>
                             <Row>
-                                <Col size='md-6'>
-                                    <img className='parallaxImages' src={require('../../../images/zeldaClickyGameResized.png')} alt='placeholder' />
-                                    <img className='parallaxImages' src={require('../../../images/manchesterHangManResized.png')} alt='placeholder' />
+                                <Col size='m6'>
+                                    {/* <img className='parallaxImages' src={require('../../../images/zeldaClickyGameResized.png')} alt='placeholder' /> */}
+                                    {/* <img className='parallaxImages' src={require('../../../images/manchesterHangManResized.png')} alt='placeholder' /> */}
+                                    <div className="card medium">
+                                        <div className="card-image">
+                                            <img src={require('../../../images/zeldaClickyGameResized.png')} alt="CoffeeFinder" />
+                                        </div>
+                                        <div className="card-content">
+                                            <p>Coffee Finder is a fullstack web application that utilizes the google maps and geocoding APIs to allow users to be able to find specialty coffee shops in their area.</p>
+                                        </div>
+                                        <div className="card-action">
+                                            <a href="https://pure-taiga-14555.herokuapp.com/">Check It Out!</a>
+                                        </div>
+                                    </div>
+                                </Col>
+                                <Col size='m6'>
+                                    <div className="card medium">
+                                        <div className="card-image">
+                                            <img src={require('../../../images/manchesterHangManResized.png')} alt="CoffeeFinder" />
+                                        </div>
+                                        <div className="card-content">
+                                            <p>Coffee Finder is a fullstack web application that utilizes the google maps and geocoding APIs to allow users to be able to find specialty coffee shops in their area.</p>
+                                        </div>
+                                        <div className="card-action">
+                                            <a href="">Check It Out!</a>
+                                        </div>
+                                    </div>
                                 </Col>
                             </Row>
                         </Container>
