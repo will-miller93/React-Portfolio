@@ -1,6 +1,9 @@
 /* #root {
     background-color: #0b1f2b;
 } */
+p {
+    font-size: 20pt;
+}
 
 .parallax-container {
     overflow: inherit;

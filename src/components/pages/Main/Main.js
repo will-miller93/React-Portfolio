@@ -25,9 +25,9 @@ class Portfolio extends Component {
                 <div className="section">
                     <div className="row container">
                         <h2 className="aboutHeader"> About Me! </h2>
-                         <p className="white-text text-darken-3 lighten-3"> heres where all of the about field text will go. there are three paragraphs so ill need three p tags.</p>
-                         <p className="white-text text-darken-3 lightne-3"> Here is the second paragraph of the about section.</p>
-                         <p className="white-text text-darken-3 lightne-3"> Here is the third paragraph of the about section.</p>
+                         <p className="white-text text-darken-3 lighten-3"> My name is Will Miller, I am a full-stack web-developer focused on clean, content-focused design and functionality. I love the simple things in life, like an artfully brewed cup of coffee, disc-golf with friends, a sunny day to attend an Atlanta Braves game and the way good clean code looks. Web Development is more than just a career for me but a passion. It's something that fuels my desire to solve problems and continuously learn new things.</p>
+                         <p className="white-text text-darken-3 lighten-3"> I graduated from the Campbell School of Business at Berry College with a Bachelors of Science in Marketing in 2015. During the years following my graduation I was able to pursue my dream of working in the Specialty Coffee Industry in multiple amazing shops all over Georgia. My work in the Specialty Coffee Industry has given me and incredible attention to detail and a love for things that are carefully and artfully crafted.</p>
+                         <p className="white-text text-darken-3 lighten-3"> At the beginning of 2018, I left the Specialty Coffee Industry and entered into the Full Stack Flex Web Development program at The Georgia Institute of Technology. It was during this course that I found my passion for programming and developing incredible applications and websites.</p>
                     </div>
                 </div>
                 {/* extra room for readability */}
@@ -43,19 +43,15 @@ class Portfolio extends Component {
                         <Container>
                             <Row>
                                 <Col size='m6'>
-                                    {/* <Card src={require('../../../images/300x300PlaceHolder.png')} /> */}
-                                    {/* <img className='parallaxImages' src={require('../../../images/ZigRigResized.png')} alt='placeholder' />  */}
-                                    {/* <img className='parallaxImages' src={require('../../../images/CoffeeFinder.png')} alt='placeholder' /> */}
                                     <div className="card medium">
                                         <div className="card-image">
                                             <img src={require('../../../images/ZigRigResized.png')} alt="CoffeeFinder" />
-                                            {/* <span className="card-title">Coffee Finder</span> */}
                                         </div>
                                         <div className="card-content">
                                             <p>Zig Rig is a Full Stack React web application that makes the task of balancing generators in the field much simpler. The web app even allows for PDF downloads to be able to share with an entire team.</p>
                                         </div>
                                         <div className="card-action">
-                                            <a href="https://pure-taiga-14555.herokuapp.com/">Check It Out!</a>
+                                            <a href="https://pickled-malamute-15436.herokuapp.com/">Check It Out!</a>
                                         </div>
                                     </div>
                                 </Col>
@@ -63,7 +59,6 @@ class Portfolio extends Component {
                                     <div className="card medium">
                                         <div className="card-image">
                                             <img src={require('../../../images/CoffeeFinder.png')} alt="CoffeeFinder" />
-                                            {/* <span className="card-title">Coffee Finder</span> */}
                                         </div>
                                         <div className="card-content">
                                             <p>Coffee Finder is a fullstack web application that utilizes the google maps and geocoding APIs to allow users to be able to find specialty coffee shops in their area.</p>
@@ -76,18 +71,15 @@ class Portfolio extends Component {
                             </Row>
                             <Row>
                                 <Col size='m6'>
-                                    {/* <img className='parallaxImages' src={require('../../../images/googleMapsResized.png')} alt='placeholder' /> */}
-                                    {/* <img className='parallaxImages' src={require('../../../images/TreeViewResized.png')} alt='placeholder' /> */}
                                     <div className="card medium">
                                         <div className="card-image">
                                             <img src={require('../../../images/googleMapsResized.png')} alt="CoffeeFinder" />
-                                            {/* <span className="card-title">Coffee Finder</span> */}
                                         </div>
                                         <div className="card-content">
-                                            <p>Coffee Finder is a fullstack web application that utilizes the google maps and geocoding APIs to allow users to be able to find specialty coffee shops in their area.</p>
+                                            <p>A lightweight visualization of randomly generated coordinates using the Google Maps API</p>
                                         </div>
                                         <div className="card-action">
-                                            <a href="https://pure-taiga-14555.herokuapp.com/">Check It Out!</a>
+                                            <a href="https://will-miller93.github.io/Coordinate-Map/">Check It Out!</a>
                                         </div>
                                     </div>
                                 </Col>
@@ -95,30 +87,27 @@ class Portfolio extends Component {
                                     <div className="card medium">
                                         <div className="card-image">
                                             <img src={require('../../../images/TreeViewResized.png')} alt="CoffeeFinder" />
-                                            {/* <span className="card-title">Coffee Finder</span> */}
                                         </div>
                                         <div className="card-content">
-                                            <p>Coffee Finder is a fullstack web application that utilizes the google maps and geocoding APIs to allow users to be able to find specialty coffee shops in their area.</p>
+                                            <p>Simple Tree View React web application utilizing web sockets to update in real time.</p>
                                         </div>
                                         <div className="card-action">
-                                            <a href="https://pure-taiga-14555.herokuapp.com/">Check It Out!</a>
+                                            <a href="https://calm-brushlands-97195.herokuapp.com/">Check It Out!</a>
                                         </div>
                                     </div>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col size='m6'>
-                                    {/* <img className='parallaxImages' src={require('../../../images/zeldaClickyGameResized.png')} alt='placeholder' /> */}
-                                    {/* <img className='parallaxImages' src={require('../../../images/manchesterHangManResized.png')} alt='placeholder' /> */}
                                     <div className="card medium">
                                         <div className="card-image">
                                             <img src={require('../../../images/zeldaClickyGameResized.png')} alt="CoffeeFinder" />
                                         </div>
                                         <div className="card-content">
-                                            <p>Coffee Finder is a fullstack web application that utilizes the google maps and geocoding APIs to allow users to be able to find specialty coffee shops in their area.</p>
+                                            <p>The Legend of Zelda Clicky Game is a solid first attempt at a fully funtional React Application</p>
                                         </div>
                                         <div className="card-action">
-                                            <a href="https://pure-taiga-14555.herokuapp.com/">Check It Out!</a>
+                                            <a href="https://will-miller93.github.io/Clicky-Game-React/">Check It Out!</a>
                                         </div>
                                     </div>
                                 </Col>
@@ -128,10 +117,10 @@ class Portfolio extends Component {
                                             <img src={require('../../../images/manchesterHangManResized.png')} alt="CoffeeFinder" />
                                         </div>
                                         <div className="card-content">
-                                            <p>Coffee Finder is a fullstack web application that utilizes the google maps and geocoding APIs to allow users to be able to find specialty coffee shops in their area.</p>
+                                            <p>A Lightweight web based Hangman game focused around the Atlanta based band Manchester Orchestra</p>
                                         </div>
                                         <div className="card-action">
-                                            <a href="">Check It Out!</a>
+                                            <a href="https://will-miller93.github.io/Manchester_Orchestra_Hangman_game/">Check It Out!</a>
                                         </div>
                                     </div>
                                 </Col>
