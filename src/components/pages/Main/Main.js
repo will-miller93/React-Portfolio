@@ -6,7 +6,6 @@ import Header from '../../utils/Header/header';
 import Container from '../../utils/grid/container/Container';
 import Row from '../../utils/grid/row/Row';
 import Col from '../../utils/grid/col/Col';
-// import Card from '../../utils/card/card';
 
 
 class Portfolio extends Component {
@@ -43,7 +42,7 @@ class Portfolio extends Component {
                         <Container>
                             <Row>
                                 <Col size='m6'>
-                                    <div className="card medium">
+                                    <div className="card medium z-depth-5">
                                         <div className="card-image">
                                             <img src={require('../../../images/ZigRigResized.png')} alt="CoffeeFinder" />
                                         </div>
@@ -56,7 +55,7 @@ class Portfolio extends Component {
                                     </div>
                                 </Col>
                                 <Col size='m6'>
-                                    <div className="card medium">
+                                    <div className="card medium z-depth-5">
                                         <div className="card-image">
                                             <img src={require('../../../images/CoffeeFinder.png')} alt="CoffeeFinder" />
                                         </div>
@@ -71,7 +70,7 @@ class Portfolio extends Component {
                             </Row>
                             <Row>
                                 <Col size='m6'>
-                                    <div className="card medium">
+                                    <div className="card medium z-depth-5">
                                         <div className="card-image">
                                             <img src={require('../../../images/googleMapsResized.png')} alt="CoffeeFinder" />
                                         </div>
@@ -84,7 +83,7 @@ class Portfolio extends Component {
                                     </div>
                                 </Col>
                                 <Col size='m6'>
-                                    <div className="card medium">
+                                    <div className="card medium z-depth-5">
                                         <div className="card-image">
                                             <img src={require('../../../images/TreeViewResized.png')} alt="CoffeeFinder" />
                                         </div>
@@ -99,7 +98,7 @@ class Portfolio extends Component {
                             </Row>
                             <Row>
                                 <Col size='m6'>
-                                    <div className="card medium">
+                                    <div className="card medium z-depth-5">
                                         <div className="card-image">
                                             <img src={require('../../../images/zeldaClickyGameResized.png')} alt="CoffeeFinder" />
                                         </div>
@@ -112,7 +111,7 @@ class Portfolio extends Component {
                                     </div>
                                 </Col>
                                 <Col size='m6'>
-                                    <div className="card medium">
+                                    <div className="card medium z-depth-5">
                                         <div className="card-image">
                                             <img src={require('../../../images/manchesterHangManResized.png')} alt="CoffeeFinder" />
                                         </div>

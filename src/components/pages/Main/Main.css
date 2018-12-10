@@ -7,7 +7,7 @@ p {
 }
 
 h3 {
-    color: white;
+    color: whitesmoke;
 }
 
 .parallax-container {
@@ -15,7 +15,8 @@ h3 {
 }
 
 .section {
-    background: #0b1f2b;
+    /* background: #0b1f2b; */
+    background-image: linear-gradient( #24d89c, #0b1f2b);
 }
 
 
@@ -30,7 +31,8 @@ h3 {
 }
 
 .header {
-    background-color: #0b1f2b;
+    /* background-color: #0b1f2b; */
+    background-image: linear-gradient(#24d89c, #0b1f2b);
     padding-top: 35px;
     padding-bottom: 0px;
 }
