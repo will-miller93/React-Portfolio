@@ -25,9 +25,9 @@ class Portfolio extends Component {
                 <div className="section">
                     <div className="row container">
                         <h2 className="aboutHeader"> About Me! </h2>
-                         <p className="white-text text-darken-3 lighten-3"> My name is Will Miller, I am a full-stack web-developer focused on clean, content-focused design and functionality. I love the simple things in life, like an artfully brewed cup of coffee, disc-golf with friends, a sunny day to attend an Atlanta Braves game and the way good clean code looks. Web Development is more than just a career for me but a passion. It's something that fuels my desire to solve problems and continuously learn new things.</p>
-                         <p className="white-text text-darken-3 lighten-3"> I graduated from the Campbell School of Business at Berry College with a Bachelors of Science in Marketing in 2015. During the years following my graduation I was able to pursue my dream of working in the Specialty Coffee Industry in multiple amazing shops all over Georgia. My work in the Specialty Coffee Industry has given me and incredible attention to detail and a love for things that are carefully and artfully crafted.</p>
-                         <p className="white-text text-darken-3 lighten-3"> At the beginning of 2018, I left the Specialty Coffee Industry and entered into the Full Stack Flex Web Development program at The Georgia Institute of Technology. It was during this course that I found my passion for programming and developing incredible applications and websites.</p>
+                         <p className="white-text text-darken-3 lighten-3 about"> My name is Will Miller, I am a full-stack web-developer focused on clean, content-focused design and functionality. I love the simple things in life, like an artfully brewed cup of coffee, disc-golf with friends, a sunny day to attend an Atlanta Braves game and the way good clean code looks. Web Development is more than just a career for me but a passion. It's something that fuels my desire to solve problems and continuously learn new things.</p>
+                         <p className="white-text text-darken-3 lighten-3 about"> I graduated from the Campbell School of Business at Berry College with a Bachelors of Science in Marketing in 2015. During the years following my graduation I was able to pursue my dream of working in the Specialty Coffee Industry in multiple amazing shops all over Georgia. My work in the Specialty Coffee Industry has given me and incredible attention to detail and a love for things that are carefully and artfully crafted.</p>
+                         <p className="white-text text-darken-3 lighten-3 about"> At the beginning of 2018, I left the Specialty Coffee Industry and entered into the Full Stack Flex Web Development program at The Georgia Institute of Technology. It was during this course that I found my passion for programming and developing incredible applications and websites.</p>
                     </div>
                 </div>
                 {/* extra room for readability */}
@@ -137,15 +137,49 @@ class Portfolio extends Component {
                 {/* this is where the third and final whitespace will go */}
                 <div className="section">
                     <div className="row container">
-                        <h2 className="aboutHeader"> Technologies </h2>
-                         <p className="white-text text-darken-3 lighten-3"> heres where all of the about field text will go. there are three paragraphs so ill need three p tags.</p>
-                         <p className="white-text text-darken-3 lightne-3"> Here is the second paragraph of the about section.</p>
-                         <p className="white-text text-darken-3 lightne-3"> Here is the third paragraph of the about section.</p>
+                        <br/>
+                        <h3>Front End</h3>
+                        <hr/>
+                        <img alt='htmlImg'/>
+                        <img alt='cssImg'/>
+                        <img alt='handlebarsImg'/>
+                        <img alt='ReactImg'/>
+                        <img alt='jsxImg'/>
+                    </div>
+                    <div className="row container">
+                        <br/>
+                        <h3>Back End</h3>
+                        <hr/>
+                        <img alt='nodeImg'/>
+                        <img alt='expressImg'/>
+                        <img alt='javascriptImg'/>
+                        <img alt='jQueryImg'/>
+                        <img alt='mySqlImg'/>
+                        <img alt='mongoImg'/>
+                    </div>
+                    <div className="row container">
+                        <br/>
+                        <h3>Technologies</h3>
+                        <hr/>
+                        <img alt='sequelizeImg'/>
+                        <img alt='Socket.ioImg'/>
+                        <img alt='sequelize'/>
+                        <img alt='bootstrapImg'/>
+                        <img alt='materializeImg'/>
+                        <img alt='npmImg'/>
+
+                    </div>
+                    <div className="row container">
+                        <br/>
+                        <h3>Tools</h3>
+                        <hr/>
+                        <img alt='sqlProImg'/>
+                        <img alt='robo3tImg'/>
+                        <img alt='vscodeImg'/>
+                        <img alt='herokuImg'/>
+                        <img alt='gitHubImg'/>
                     </div>
                 </div>
-                {/* extra room for readability */}
-                {/* then the footer will go here. */}
-                {/* extra room for readability */}
             </div>
         );
     }

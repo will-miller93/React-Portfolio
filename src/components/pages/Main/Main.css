@@ -1,5 +1,13 @@
-p {
+.about {
     font-size: 20pt;
+}
+
+p {
+    font-size: 10pt;
+}
+
+h3 {
+    color: white;
 }
 
 .parallax-container {
