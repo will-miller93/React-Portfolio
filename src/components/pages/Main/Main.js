@@ -70,7 +70,8 @@ class Portfolio extends Component {
                             </Row>
                             <Row>
                                 <Col size='m6'>
-                                    <div className="card medium z-depth-5">
+                                    <div className="card medium z-depth-5pwd
+                                    ">
                                         <div className="card-image">
                                             <img src={require('../../../images/googleMapsResized.png')} alt="CoffeeFinder" />
                                         </div>
@@ -83,7 +84,8 @@ class Portfolio extends Component {
                                     </div>
                                 </Col>
                                 <Col size='m6'>
-                                    <div className="card medium z-depth-5">
+                                    <div className="card medium z-depth-5pwd
+                                    ">
                                         <div className="card-image">
                                             <img src={require('../../../images/TreeViewResized.png')} alt="CoffeeFinder" />
                                         </div>
@@ -98,7 +100,8 @@ class Portfolio extends Component {
                             </Row>
                             <Row>
                                 <Col size='m6'>
-                                    <div className="card medium z-depth-5">
+                                    <div className="card medium z-depth-5pwd
+                                    ">
                                         <div className="card-image">
                                             <img src={require('../../../images/zeldaClickyGameResized.png')} alt="CoffeeFinder" />
                                         </div>
@@ -111,7 +114,8 @@ class Portfolio extends Component {
                                     </div>
                                 </Col>
                                 <Col size='m6'>
-                                    <div className="card medium z-depth-5">
+                                    <div className="card medium z-depth-5pwd
+                                    ">
                                         <div className="card-image">
                                             <img src={require('../../../images/manchesterHangManResized.png')} alt="CoffeeFinder" />
                                         </div>
